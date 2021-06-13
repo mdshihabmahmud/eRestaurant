@@ -1,0 +1,111 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+ul,ol{
+	list-style-type: none;
+}
+
+a,a:hover, a:focus{
+	text-decoration: none;
+}
+
+
+.container-fluid #section1 h1{
+	text-align: center;
+	font-size: 60px;
+	font-style: italic;
+	height: 200px;
+	padding-top: 90px;
+}
+
+.container-fluid #section1 p{
+	background-color: #34495E;
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	font-style: italic;
+}
+.container-fluid #section2 h1{
+	text-align: center;
+	font-size: 60px;
+	font-style: italic;
+	height: 200px;
+	padding-top: 90px;
+}
+
+.container-fluid #section2 .col .card .card-body{
+	background-color: black;
+	color: white;
+}
+
+.container-fluid #section3 h1{
+	text-align: center;
+	font-size: 60px;
+	font-style: italic;
+	height: 200px;
+	padding-top: 90px;
+}
+
+.container-fluid #section3 hr{
+border-bottom: 2px solid #D35400;
+	width: 600px;
+	margin: 0px auto;
+}
+
+.container-fluid #section3 .col .card .card-body{
+	background-color: black;
+	color: white;
+}
+
+.container-fluid #section9 h1{
+	text-align: center;
+	font-size: 60px;
+	font-style: italic;
+	height: 100px;
+	padding-top: 90px;
+}
+.container-fluid #section10 h1{
+	text-align: center;
+	font-size: 60px;
+	font-style: italic;
+	height: 200px;
+	padding-top: 90px;
+}
+
+.container-fluid #section10 .col .card .card-body{
+	background-color: black;
+	color: white;
+}
+
+.contact-form{
+	background: url(../img/contact.jpg);
+	padding: 100px 0px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	text-align: center;
+	color: white;
+}
+
+
+
+.contact-form .container .row .col-lg-6 input{
+	background: none;
+}
+.contact-form .container .row .col-lg-6 textarea{
+	background: none;
+}
+
+.copyright .container ul li{
+	float: left;
+	margin: 5px;
+}
+.copyright .container ul li a{
+     padding: 10px;
+     font-size: 20px;
+}
